@@ -1,16 +1,4 @@
 var estudiantes = [
-    {
-    apellidop: "Leija",
-    apellidom: "Chavana",
-    nombre: "Ediel",
-    edad: 22,
-    fechanacimiento: {
-    año: 1999,
-    mes: "septiembre",
-    dia: 4
-     },
-     carrera: "IRYC"
-    },
     
     {
     apellidop: "De Luna",
@@ -37,6 +25,19 @@ var estudiantes = [
      },
      carrera: "IRYC"
     },
+    
+    {
+        apellidop: "Leija",
+        apellidom: "Chavana",
+        nombre: "Ediel",
+        edad: 22,
+        fechanacimiento: {
+        año: 1999,
+        mes: "septiembre",
+        dia: 4
+         },
+         carrera: "IRYC"
+        },
 ]
 
 var table = document.getElementsByTagName("table")[0];
