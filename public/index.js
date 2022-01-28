@@ -1,47 +1,46 @@
 var estudiantes = [
     
     {
-        apellidop: "Leija",
-        apellidom: "Chavana",
-        nombre: "Ediel",
-        edad: 22,
-        fechanacimiento: {
-        año: 1999,
-        mes: "septiembre",
-        dia: 4
-         },
-         carrera: "IRYC"
-        },
+     apellidop: "Leija",
+     apellidom: "Chavana",
+     nombre: "Ediel",
+     edad: 22,
+     fechanacimiento: {
+     año: 1999,
+     mes: "septiembre",
+     dia: 4
+      },
+      carrera: "IRYC"
+     },
         
     {
-    apellidop: "De Luna",
-    apellidom: "De la Fuente",
-    nombre: "Fernando",
-    edad: 21,
-    fechanacimiento: {
-    año: 2000,
-    mes: "Agosto",
-    dia: 22
+     apellidop: "De Luna",
+     apellidom: "De la Fuente",
+     nombre: "Fernando",
+     edad: 21,
+     fechanacimiento: {
+     año: 2000,
+     mes: "Agosto",
+     dia: 22
      },
-    carrera: "IRYC"
+     carrera: "IRYC"
     },
     
     {
-    apellidop: "Cruz",
-    apellidom: "Rodriguez",
-    nombre: "Brandon",
-    edad: 23,
-    fechanacimiento: {
-    año: 1998,
-    mes: "Mayo",
-    dia: 5
+     apellidop: "Cruz",
+     apellidom: "Rodriguez",
+     nombre: "Brandon",
+     edad: 23,
+     fechanacimiento: {
+     año: 1998,
+     mes: "Mayo",
+     dia: 5
      },
      carrera: "IRYC"
     },
     
    
 ]
-
 var table = document.getElementsByTagName("table")[0];
 for (var i = 0; i < estudiantes.length; i++) {
     var templ = document.getElementById ('tbodyestudiantes').content.cloneNode(true);
