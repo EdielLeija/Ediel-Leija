@@ -12,7 +12,7 @@ var estudiantes = [
          },
          carrera: "IRYC"
         },
-
+        
     {
     apellidop: "De Luna",
     apellidom: "De la Fuente",
